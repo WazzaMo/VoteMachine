@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+.info {
+    display: block;
+    position: relative;
+    margin: 5px 10px 10px 10px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid black;
+    border-radius: 3px; 
+    background-color: rgba(20,20,20,50);
+    color: white;
+}
+
+.Tab {
+    display: inline-block;
+    padding: 10px 30px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    border: 0px solid darkgrey;
+    border-radius: 4px 4px 0px 0px;
+    position: left;
+    width: 30%;
+    text-decoration: none;
+    color: #666;
+    background-color: #888;
+    box-shadow: #444;
+}
+
+.activeTab {
+    background-color: #CCC;
+    color: black;
+}
+
+nav a:visited, a:link {
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #444;
+    border-bottom: none;
+}
+
+.navbar {
+    padding-bottom: 0px;
+    margin-bottom: 7px;
+    border-bottom: 9px solid #CCC;
+    width: 100%;
+}
