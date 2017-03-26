@@ -1,0 +1,12 @@
+<div class="row columns">
+  <h1>Sign-in to the VoteMachine</h1>
+  <div class="loginNotSignedIn" *ngIf="!isSignedIn()">
+    <label class="info">Click here to login with a Google Account</label>
+    <button (click)="login()">Login via Google</button>
+  </div>
+  <div *ngIf="isSignedIn()">
+    <label class="info">Already signed in as: {{getName()}}</label>
+    <button (click)="goToUserPage()">Progress on to User Page</button>
+    <!--<a class="BigLink" routerLink="/user">Progress on to User Page</a>-->
+  </div>
+</div>
