@@ -8,13 +8,22 @@ that either intended to support comuntiy discussion of a product or design for c
 awareness or could be used as part of an overall product - say a web client.
 
 ## Copyright
-Copyright (c) Monash University 2017
 Copyright (c) Warwick Molloy 2017
 
 ## License
 This code is generally available under the terms of the MIT License.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+
+# Development
+
+## Firebase
+This code depends on having a Firebase project.  The configuration values from the project
+need to be inserted into the `app.module.ts` file.
+
+See https://console.firebase.google.com
+
+# Using the Angular CLI Tools
 
 ## Development server
 
